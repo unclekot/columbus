@@ -1,3 +1,10 @@
+body{
+    color: #1d1d1b;
+    font-family: "ITC Johnston W01",sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.4;
+}
 #top_bar{
     background-color: rgba(0, 0, 0, 0.4);
     display: block;
@@ -6,8 +13,12 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
+    padding:20px;
 }
-#top_bar nav ul li{display: inline-block;text-transform: uppercase;}
+#top_bar nav{float:right;}
+#top_bar nav ul li{display: inline-block;text-transform: uppercase;margin-left: 2rem;}
+#top_bar nav ul li a{color:#fff;font-size: 0.7rem;font-weight: bold;}
 .water {
     background-color: #e1eedc;
     background-image: url("img/water-image-replacement.jpg");
