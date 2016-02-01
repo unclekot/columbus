@@ -112,6 +112,75 @@ body{
     margin-right: 0 !important;
 }
 
+.backtop-section {
+    height: 15em;
+    width: 100%;
+}
+
+.backtop-section .row {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+a.backtop {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    margin: 0 auto;
+    opacity: 1;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+a.backtop img {
+    height: 35px;
+    width: 35px;
+}
+
+a.backtop span {
+    display: block;
+    margin-top: 1.4em;
+    text-transform: uppercase;
+}
+
+
+.under-footer {
+    background-color: #e1eef9;
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    min-height: 60px;
+    padding: 3rem 0;
+    text-transform: uppercase;
+}
+
+.under-footer .row {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1322px;
+    padding: 0 22px;
+}
+
+.under-footer .copyright {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.underfooter-logo img {
+    height: auto;
+    max-width: 125px;
+    width: 100%;
+}
+
+.underfooter-logo {
+    margin-right: 0 !important;
+}
+
+
+
 .content-section .caption-main {
     font-size: 25px;
     font-weight: 700;
