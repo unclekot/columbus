@@ -1,4 +1,10 @@
-/* header */
+body{
+    color: #1d1d1b;
+    font-family: "ITC Johnston W01",sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.4;
+}
 
 #top_bar{
     background-color: rgba(0, 0, 0, 0.4);
@@ -8,8 +14,14 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
+    padding:20px;
 }
-#top_bar nav ul li{display: inline-block;text-transform: uppercase;}
+
+#top_bar nav{float:right;}
+#top_bar nav ul li{display: inline-block;text-transform: uppercase;margin-left: 2rem;}
+#top_bar nav ul li a{color:#fff;font-size: 0.7rem;font-weight: bold;}
+
 .water {
     background-color: #e1eedc;
     background-image: url("img/water-image-replacement.jpg");
@@ -83,10 +95,6 @@
 }
 
 
-
-
-/* footer */
-
 .pre-footer {
     background-color: #e1eef9;
     border-bottom: 1px solid #1d1d1b;
@@ -104,6 +112,50 @@
     margin-right: 0 !important;
 }
 
+.content-section .caption-main {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+body.homepage section.homepage {
+    background-color: #e1eedc;
+}
+body.homepage .is-1 {
+    background-color: #e1eedc;
+    background-image: url("../img/homepage-wide-1.jpg");
+}
+body.homepage .is-1 .title-holder .inner svg {
+    height: auto;
+    max-width: 834px;
+    width: 80%;
+}
+.image-section .title-holder {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.image-section .title-holder .inner {
+    margin: 0 auto;
+    text-align: center;
+}
+.image-section {
+    background-position: center center, center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 880px;
+    position: relative;
+    width: 100%;
+}
+.btn-std.green-fill {
+    background-color: transparent;
+    border: 2px solid #1d1d1b;
+    color: #1d1d1b;
+    transition: all 0.3s ease 0s;
+}
 .btn-std {
     cursor: pointer;
     display: inline-block;
@@ -123,6 +175,32 @@
     margin-left: 4rem;
 }
 
-
-
-
+}
+.btn-std.green-fill:hover {
+    background-color: #1d1d1b;
+    color: #e1eedc;
+}
+.btn-std.white.black-fill {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+.module-section {
+    background-color: white;
+    padding-top: 6em;
+}
+.module-section .item .module-image .item-title {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0.08em;
+    position: absolute;
+    text-transform: uppercase;
+    top: 2.2em;
+    width: 100%;
+}
+body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
+    background-color: #fbd8c6;
+}
