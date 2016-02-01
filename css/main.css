@@ -91,3 +91,34 @@ body{
     width: auto;
 }
 
+body.homepage section.homepage {
+    background-color: #e1eedc;
+}
+body.homepage .is-1 {
+    background-color: #e1eedc;
+    background-image: url("../img/homepage-wide-1.jpg");
+}
+body.homepage .is-1 .title-holder .inner svg {
+    height: auto;
+    max-width: 834px;
+    width: 80%;
+}
+.image-section .title-holder {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.image-section .title-holder .inner {
+    margin: 0 auto;
+    text-align: center;
+}
+.image-section {
+    background-position: center center, center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 880px;
+    position: relative;
+    width: 100%;
+}
