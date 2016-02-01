@@ -90,7 +90,13 @@ body{
     right: 0;
     width: auto;
 }
-
+.content-section .caption-main {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
 body.homepage section.homepage {
     background-color: #e1eedc;
 }
@@ -121,4 +127,51 @@ body.homepage .is-1 .title-holder .inner svg {
     height: 880px;
     position: relative;
     width: 100%;
+}
+.btn-std.green-fill {
+    background-color: transparent;
+    border: 2px solid #1d1d1b;
+    color: #1d1d1b;
+    transition: all 0.3s ease 0s;
+}
+.btn-std {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    height: auto;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.4rem;
+    padding: 1.1em 1.9em;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.btn-std.green-fill:hover {
+    background-color: #1d1d1b;
+    color: #e1eedc;
+}
+.btn-std.white.black-fill {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+.module-section {
+    background-color: white;
+    padding-top: 6em;
+}
+.module-section .item .module-image .item-title {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0.08em;
+    position: absolute;
+    text-transform: uppercase;
+    top: 2.2em;
+    width: 100%;
+}
+body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
+    background-color: #fbd8c6;
 }
