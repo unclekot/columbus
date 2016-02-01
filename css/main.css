@@ -1,3 +1,13 @@
+#top_bar{
+    background-color: rgba(0, 0, 0, 0.4);
+    display: block;
+    height: 60px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#top_bar nav ul li{display: inline-block;text-transform: uppercase;}
 .water {
     background-color: #e1eedc;
     background-image: url("img/water-image-replacement.jpg");
