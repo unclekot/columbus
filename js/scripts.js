@@ -1,5 +1,17 @@
 $(document).ready(function(){
 
+$("#backtop-footer").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".water").offset().top
+    }, 1500);
+});
+
+
+$(".godown").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".caption-main").offset().top
+    }, 1500);
+});
 
 	// Initial homepage loading
 
