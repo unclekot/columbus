@@ -15,7 +15,6 @@ $(".godown").click(function() {
 
 	// Initial homepage loading
 
-
 	$('.homepage .hero .overlay-fadeout').delay(1000).animate({
 		opacity:0,
 		easing:'easeInQuint'
@@ -55,19 +54,13 @@ $(".godown").click(function() {
 
 	var theoffset = windowquarter *= 3;
 
-
-
 	var windowheight2 = $(window).height();
 	var windowfifth = windowheight2 /= 5;
 
 	var theoffset2 = windowfifth *= 3;
 	var theoffset100 = windowheight;
 
-
 	var scrollanim = function(){
-
-
-
 
 		$(".homepage #lockup-transition-1").waypoint(function(down) {
 
@@ -191,12 +184,7 @@ $(".godown").click(function() {
 	});
 
 
-
-
-
-
-
-		var animloaded = false;
+	var animloaded = false;
 
 
 	$(window).on('load resize',function(){

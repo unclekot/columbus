@@ -101,18 +101,16 @@ body{
 .pre-footer {
     background-color: #e1eef9;
     border-bottom: 1px solid #1d1d1b;
-    padding: 4rem 0;
 }
 
 .logo-prefooter {
     border-right: 1px solid #1d1d1b;
-    min-height: 130px;
 }
 
 .btn-section {
     border-left: 1px solid #1d1d1b;
-    min-height: 130px;
     margin-right: 0 !important;
+    padding-bottom: 1rem;
 }
 
 .backtop-section {
@@ -312,20 +310,20 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
 
 .lifestyle {
     background-color: #fbd8c6;
-    margin-left: 1rem;
+    /*margin-left: 1rem;*/
     min-height: 15rem;
 }
 
 .location {
     background-color: #e1eedc;
-    left: 2.3%;
-    position: relative;
+    /*left: 2.3%;
+    position: relative;*/
     min-height: 15rem;
 }
 
 .building {
     background-color: #e1eef9;
-    margin-right: 1rem;
+   /* margin-right: 1rem;*/
     min-height: 15rem;
 }
 
@@ -338,10 +336,11 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
     text-transform: uppercase;
 }
 
+/*
 .module-section .row {
     width: 100% !important;
     max-width: none;
-}
+}*/
 
 .module-image {
     margin-bottom: 2.2rem;
@@ -359,7 +358,7 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
 }
 
 .module-cta {
-    margin-bottom: 2.2rem;
+    padding-bottom: 2.2rem;
 }
 
 .module-description h1 {
@@ -387,10 +386,11 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
     transition: all 0.3s ease 0s;
 }
 
+/*
 #lockup-transition-4 .large-4 {
     width: 31%;
 }
-
+*/
 .location .inner {
     background-color: #e1eedc;
 }
@@ -399,33 +399,49 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
     background-color: #e1eef9;
 }
 
-#lockup-transition-4 .column, .columns {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}   
 
+/* max-width 640px, mobile-only styles */
+@media only screen and (max-width: 40em) {
 
-@media (max-width: 63em) {
+ }
+/* all non mobile screens */
+@media only screen and (min-width: 40em) {
+
+}
+/* medium and small screens */
+@media only screen and (max-width: 64em) {
+    #lockup-transition-4 .columns:nth-child(-n+2) {
+        padding-right: 0 !important;
+    }
+    .pre-footer {
+        text-align: center;
+
+    }
+    .logo-prefooter{
+        border-right-width: 0;
+    }
+    .logo-prefooter div{
+        border-bottom: 1px solid #1d1d1b;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+    .btn-section{
+        border-left-width: 0;
+    }
+}
+/* not medium and not mobile screens */
+@media only screen and (min-width: 64.063em) {
+        .row{
+            max-width: 1322px;
+        }
+
+        .pre-footer{
+            padding-top: 4em;
+            padding-bottom: 4em;
+            }
         .logo-prefooter {
-            border-right: 0;
-            border-bottom: 1px solid #1d1d1b;
+            padding-bottom: 3em;
         }
-
-        .logo-prefooter img {
-            position: relative;
-            left:43%;
-        }
-
-        .btn-section {
-            border-left: 0;
-        }
-
-        .btn-section .blue-button {
-            position: relative;
-            left: 22%;
-            top: 60%;
-        }
-
 
 
         .under-footer .copyright {
@@ -437,8 +453,8 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
         .underfooter-logo .medium-2 {
              width: 13.6667%;
         }
-        
-}    
+
+}
 
 
-           
+
