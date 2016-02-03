@@ -6,6 +6,16 @@ body{
     line-height: 1.4;
 }
 
+body.building .hero {
+    background-image: url("../img/building-head.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
 #top_bar{
     background-color: rgba(0, 0, 0, 0.4);
     display: block;
@@ -423,7 +433,7 @@ figure figcaption.right {
     height: 100%;
     position: relative;
     width: 100%;
-} 
+}
 
 .section-title {
     font-size: 12px;
