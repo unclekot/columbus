@@ -399,6 +399,60 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
     background-color: #e1eef9;
 }
 
+/* second page */
+
+figcaption {
+    font-size: 14px;
+    padding-top: 0.6em;
+}
+
+figure figcaption.left {
+    text-align: left;
+}
+
+figure figcaption.right {
+    text-align: right;
+}
+
+
+.building-logo {
+    background-image: url("/img/building-head.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    width: 100%;
+} 
+
+.section-title {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin-bottom: 2.8rem;
+    padding-top: 2.8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.caption-main {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.caption-snippet {
+    color: #1d1d1b;
+    letter-spacing: 0;
+    line-height: 1.4;
+    margin-bottom: 2.2rem;
+    margin-top: 60%;
+}
+
+
+
 
 /* max-width 640px, mobile-only styles */
 @media only screen and (max-width: 40em) {
