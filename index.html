@@ -9,24 +9,26 @@
 </head>
 
 <body class="homepage">
-<div id="top_bar">
-    <div class="row">
-        <div class="large-4 columns">
-            <div class="logo"><a href="/"><img src="/img/logo-header.svg" /></a></div>
-        </div>
-        <div class="large-8 columns">
-            <nav>
-                <ul>
-                    <li><a href="#">Lifestyle</a></li>
-                    <li><a href="#">Location</a></li>
-                    <li><a href="#">The Building</a></li>
-                    <li><a href="#">Accommodation</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+<header id="top">
+    <div id="top_bar">
+        <div class="row">
+            <div class="large-4 columns">
+                <div class="logo"><a href="/"><img src="/img/logo-header.svg" /></a></div>
+            </div>
+            <div class="large-8 columns">
+                <nav>
+                    <ul>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Location</a></li>
+                        <li><a href="#">The Building</a></li>
+                        <li><a href="#">Accommodation</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
-</div>
+</header>
 <div class="water">
 	<div class="overlay" style="opacity: 1;">
 		<div class="title-holder">
@@ -47,6 +49,7 @@
 			<source type="video/ogv" src="videos/water.ogv"></source>
 		</video>
 	</div>
+    <div id="main-start"> </div>
 </div>
 
 <section class="homepage">
@@ -516,50 +519,58 @@
         </div>
     </div>
     <div class="module-section">
-            <div id="lockup-transition-4" class="row">
-                <div class="large-4 medium-4 columns animate-movein item lifestyle">
-                    <div class="module-image">
-                        <div class="item-title"><span class="inner">Lifestyle</span></div>
-                        <a href="lifestyle.html"><img alt="Lifestyle" src="img/homepage-module-1.jpg"></a>
-                    </div>
-                    <div class="module-description">
-                        <h1><a href="lifestyle.html">A unique riverside lifestyle</a></h1>
-                        <p> The Columbus Building gives you the best of both worlds: peace and tranquility when you need it, something a little faster-paced when that fits the bill. </p>
-                    </div>
-                    <div class="module-cta">
-                        <a class="btn-std pink-button" href="lifestyle.html"> Explore </a>
-                    </div>
-                </div>
-
-                <div class="large-4 medium-4 columns animate-movein item location">
-                    <div class="module-image">
-                        <div class="item-title"><span class="inner">Location</span></div>
-                        <a href="location.html"><img alt="Lifestyle" src="img/homepage-module-2.jpg"></a>
-                    </div>
-                    <div class="module-description">
-                        <h1><a href="location.html">Discover Canary Wharf</a></h1>
-                        <p> Over the past 25 years Canary Wharf has blossomed into one of Europe’s most vibrant districts. </p>
-                    </div>
-                    <div class="module-cta">
-                        <a class="btn-std green-button" href="location.html"> Find out more </a>
-                    </div>
-                </div>
-
-                <div class="large-4 medium-4 columns animate-movein item building">
-                    <div class="module-image">
-                        <div class="item-title">
-                            <span class="inner">Building</span>
+            <div id="lockup-transition-4">
+              <div class="row">
+                <div class="large-4 medium-4 columns">
+                    <div class="animate-movein item lifestyle">
+                        <div class="module-image">
+                            <div class="item-title"><span class="inner">Lifestyle</span></div>
+                            <a href="lifestyle.html"><img alt="Lifestyle" src="img/homepage-module-1.jpg"></a>
                         </div>
-                        <a href="building.html"><img alt="Lifestyle" src="img/homepage-module-3.jpg"></a>
+                        <div class="module-description">
+                            <h1><a href="lifestyle.html">A unique riverside lifestyle</a></h1>
+                            <p> The Columbus Building gives you the best of both worlds: peace and tranquility when you need it, something a little faster-paced when that fits the bill. </p>
+                        </div>
+                        <div class="module-cta">
+                            <a class="btn-std pink-button" href="lifestyle.html"> Explore </a>
+                        </div>
                     </div>
-                    <div class="module-description">
-                        <h1><a href="building.html">Uninterrupted City Views</a></h1>
-                        <p> The Columbus Building has been comprehensively remodelled and redesigned to create 160,000 sq ft of Grade A office space across 8 upper office floors. </p>
+                </div>
+
+                <div class="large-4 medium-4 columns">
+                    <div class=" animate-movein item location">
+                        <div class="module-image">
+                            <div class="item-title"><span class="inner">Location</span></div>
+                            <a href="location.html"><img alt="Lifestyle" src="img/homepage-module-2.jpg"></a>
+                        </div>
+                        <div class="module-description">
+                            <h1><a href="location.html">Discover Canary Wharf</a></h1>
+                            <p> Over the past 25 years Canary Wharf has blossomed into one of Europe’s most vibrant districts. </p>
+                        </div>
+                        <div class="module-cta">
+                            <a class="btn-std green-button" href="location.html"> Find out more </a>
+                        </div>
                     </div>
-                    <div class="module-cta">
-                        <a class="btn-std blue-button" href="building"> View building </a>
+                </div>
+
+                <div class="large-4 medium-4 columns">
+                    <div class="animate-movein item building">
+                        <div class="module-image">
+                            <div class="item-title">
+                                <span class="inner">Building</span>
+                            </div>
+                            <a href="building.html"><img alt="Lifestyle" src="img/homepage-module-3.jpg"></a>
+                        </div>
+                        <div class="module-description">
+                            <h1><a href="building.html">Uninterrupted City Views</a></h1>
+                            <p> The Columbus Building has been comprehensively remodelled and redesigned to create 160,000 sq ft of Grade A office space across 8 upper office floors. </p>
+                        </div>
+                        <div class="module-cta">
+                            <a class="btn-std blue-button" href="building"> View building </a>
+                        </div>
                     </div>
                 </dvi>
+            </div>
         </div>
     </div>
 </section>
@@ -573,20 +584,28 @@
                 <span>Back to top</span>
                 </a>
             </div>
-        </div>        
+        </div>
     </div>
 
     <div class="pre-footer">
         <div class="row">
             <div class="medium-12 large-2 columns logo-prefooter">
-                <img alt="The Columbus Building" src="img/logo-footer.svg">
+                <div>
+                    <img alt="The Columbus Building" src="img/logo-footer.svg">
+                </div>
             </div>
-            
+
             <div class="large-7 medium-12 columns empty-section"> </div>
 
             <div class="large-3 medium-12 columns btn-section">
-                <a class="btn-std blue-button" target="_blank" href="dl/the_columbus_building_brochure.pdf">Download brochure</a>
-                <a class="btn-std blue-button" href="contact.html">Get in touch</a>  
+                <div>
+                    <div>
+                        <a class="btn-std blue-button" target="_blank" href="dl/the_columbus_building_brochure.pdf">Download brochure</a>
+                    </div>
+                    <div>
+                        <a class="btn-std blue-button" href="contact.html">Get in touch</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -605,20 +624,26 @@
                 </div>
             </div>
 
-            <div class="large-2  medium-2 columns">
+            <div class="large-2 medium-2 columns">
                 <div class="underfooter-logo">
                     <p>
                         <img alt="Canary Wharf Group" src="img/logo-cwg.svg">
                     </p>
                 </div>
-            </div> 
+            </div>
         </div>
-    </div>                 
+    </div>
 </footer>
 
 </body>
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script src="js/modernizr-2.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/polyfill.js"></script>
+    <script src="js/retina.js"></script>
+    <script src="js/vivus.js"></script>
+    <script src="js/waypoints.js"></script>
 	<script src="js/scripts.js"></script>
 	<script type="text/javascript">
      $(document).foundation();
