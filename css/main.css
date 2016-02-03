@@ -15,12 +15,12 @@ body{
     top: 0;
     width: 100%;
     z-index: 100;
-    padding:20px;
+    padding:15px;
 }
 
 #top_bar nav{float:right;}
-#top_bar nav ul li{display: inline-block;text-transform: uppercase;margin-left: 2rem;}
-#top_bar nav ul li a{color:#fff;font-size: 0.7rem;font-weight: bold;}
+#top_bar nav ul li{display: inline-block;text-transform: uppercase;margin-right: 2rem;}
+#top_bar nav ul li a{color:#fff;font-size: 0.8rem;font-weight: bold;}
 
 .water {
     background-color: #e1eedc;
@@ -451,8 +451,19 @@ figure figcaption.right {
     margin-top: 60%;
 }
 
-
-
+.image-section .image-section-overlay {
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #e1eedc;
+}
+.butt-bac {
+    margin-top: 4rem;
+}
 
 /* max-width 640px, mobile-only styles */
 @media only screen and (max-width: 40em) {
@@ -482,6 +493,14 @@ figure figcaption.right {
     .btn-section{
         border-left-width: 0;
     }
+}
+.animate-movein {
+    opacity: 0;
+    position: relative;
+    top: 100px;
+}
+.animate-fadein {
+    opacity: 0;
 }
 /* not medium and not mobile screens */
 @media only screen and (min-width: 64.063em) {
