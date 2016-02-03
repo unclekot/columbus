@@ -30,7 +30,7 @@
 				<div class="large-6 medium-6 columns">
 					<div id="lockup-transition-1" class="nogrid-item item-1">
 						<div class="item image">
-							<figure class="animate-movein">
+							<figure class="animate@movein">
 								<img alt="Remodelled reception" src="img/building-1.jpg">
 								<figcaption class="left"> Remodelled reception </figcaption>
 							</figure>
@@ -41,7 +41,7 @@
 				<div class="large-6 medium-6 columns">
 					<div id="lockup-transition-2" class="nogrid-item item-2">
 						<div class="item caption align-center">
-							<div class="animate-fadein inner">
+							<div class="animate@fadein inner">
 								<div class="caption-main">
 									<p>The Columbus Building offers bright, contemporary office space on the bank of the river Thames.</p>
 								</div>
@@ -51,7 +51,7 @@
 
 					<div id="lockup-transition-3" class="nogrid-item item-3">
 						<div class="item caption">
-							<div class="animate-fadein inner">	
+							<div class="animate@fadein inner">	
 								<div class="caption-snippet">
 									<p>The Columbus Building has been comprehensively remodelled and redesigned to create 160,000 sq ft of Grade A office space across 8 upper office floors.</p>
 								</div>
@@ -61,10 +61,10 @@
 				
 					<div id="lockup-transition-4" class="nogrid-item item-4">
 						<div class="item image">
-							<figure class="animate-movein">			
+							<figure class="animate@movein">			
 								<div class="circus-entrance-img">
 									<img alt="Westferry Circus entrance" src="img/building-2.jpg">
-									<figcaption class="right"> Westferry Circus entrance </figcaption>		
+									<figcaption class="right">Westferry Circus entrance</figcaption>		
 								</div>
 							</figure>
 						</div>
@@ -81,36 +81,88 @@
 		<div class="nogrid-row nogrid-row-2">
 			<div id="lockup-transition-5" class="nogrid-item item-5">
 				<div class="item image">
-				<figure class="animate-movein" style="top: 0px; opacity: 1;">
-				<img alt="The Columbus Building, Westferry Circus entrance" src="img/content/building-3.jpg">
-				<figcaption class="right"> The Columbus Building, Westferry Circus entrance </figcaption>
-		</figure>
-		</div>
-		</div>
+					<figure class="animate@movein">
+						<img alt="The Columbus Building, Westferry Circus entrance" src="img/building-3.jpg">
+						<figcaption class="right">The Columbus Building, Westferry Circus entrance</figcaption>
+					</figure>
+				</div>
+			</div>
 		</div>		
 
+		<div id="lockup-transition-6" class="image-section is-1">
+			<div class="image-section-overlay" style="opacity: 0; z-index: 0;"></div>
+		</div>
+	</div>
+
+	<div class="subsection subsection-2 notitle">
+		<div class="row">
+			<div class="large-4 columns">
+				<div class="item caption">
+					<div class="animate@fadein inner">
+						<div class="caption-snippet">
+							<p> The remodelled dual access reception is framed by concrete and bronze mesh encased walls that provide a contemporary finish and a lasting impression. The reception will also benefit from its own dedicated lounge for tenants. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="large-6 columns">
+				<div class="item image">
+					<figure class="animate@movein">
+						<img alt="Reception lounge" src="img/building-5.jpg">
+						<figcaption class="right"> Reception lounge </figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div id="lockup-transition-9" class="nogrid-item item-8">
+				<div class="large-12 columns">
+					<div class="animate@fadein">
+						<div class="caption-main">
+							<p> Traditional function or contemporary form </p>
+						</div>
+					</div>
+
+					<div class="note">
+						<div class="inner">
+							<p> Hover or tap to view floor options </p>
+								<div class="toggle">
+									<div class="icon icon-1 active"> </div>
+									<div class="icon icon-2"> </div>
+								</div>
+						</div>
+				    </div>
+				</div>
+			
+				<div class="large-12 columns">
+					<div class="item image">
+						<figure class="animate-movein">
+							<div class="images">
+								<img class="image-main" alt="Floor - traditional function" src="img/building-6-traditional.jpg">
+								<img class="image-overlay" alt="Floor - Contemporary Form" src="img/building-6-contemporary.jpg">
+							</div>
+								<figcaption class="both">
+									<div class="inner-left">
+										CGI of typical floorplate -
+										<span class="floor-type">Traditional Function</span>
+									</div>
+
+									<div class="inner-right"> </div>
+								</figcaption>
+						</figure>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>					
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
 <footer id="footer">
-    <div class="backtop-section">
+    <div class="backtop-section reception-backtop">
         <div class="row">
             <div class="large-12 columns">
                 <a id="backtop-footer" class="backtop" href="#top">
@@ -121,7 +173,7 @@
         </div>        
     </div>
 
-    <div class="pre-footer">
+    <div class="pre-footer building-prefooter">
         <div class="row">
             <div class="medium-12 large-2 columns logo-prefooter">
                 <img alt="The Columbus Building" src="img/logo-footer.svg">
@@ -164,6 +216,12 @@
 </body>
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script src="js/modernizr-2.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/polyfill.js"></script>
+    <script src="js/retina.js"></script>
+    <script src="js/vivus.js"></script>
+    <script src="js/waypoints.js"></script>
 	<script src="js/scripts.js"></script>
 	<script type="text/javascript">
      $(document).foundation();

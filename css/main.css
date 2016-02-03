@@ -461,9 +461,77 @@ figure figcaption.right {
     z-index: 1;
     background-color: #e1eedc;
 }
+
+.image-section {
+    background-position: center center, center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 880px;
+    position: relative;
+    width: 100%;
+}
+
+.is-1 {
+    background-image: url("/img/building-wide-1.jpg");
+}
+.subsection-2 {
+    background-color: #e1eef9;
+    padding-top: 6rem;
+}
+
+.subsection-2 .caption-main {
+    text-align: center;
+}
+
+
+.reception-backtop {
+    background-color: #e1eef9;
+}
 .butt-bac {
     margin-top: 4rem;
 }
+
+.toggle .icon.active {
+    background-color: #1d1d1b;
+}
+
+.toggle {
+    margin: 10px auto 0;
+    width: 45px;
+}
+
+.note {
+    display: block;
+    margin-bottom: 2em;
+}
+
+.toggle .icon {
+    border: 1px solid #1d1d1b;
+    border-radius: 6px;
+    display: inline-block;
+    height: 12px;
+    margin-right: 0.5em;
+    width: 12px;
+}
+
+.nogrid .item-8 .image-overlay {
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.nogrid .nogrid-item img {
+    height: auto;
+    width: 100%;
+}
+
+.building-prefooter {
+    border-top: 1px solid #1d1d1b;
+}
+
+
 
 /* max-width 640px, mobile-only styles */
 @media only screen and (max-width: 40em) {
