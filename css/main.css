@@ -69,6 +69,14 @@ h5{
     width: 100%;
 }
 
+.hero .overlay .title-holder svg {
+    height: auto;
+    max-width: 676px;
+    position: relative;
+    width: 80%;
+}
+
+
 .overlay {
     height: 100%;
     left: 0;
@@ -439,7 +447,7 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
 .location .inner {
     background-color: #e1eedc;
 }
-.building .inner {
+.building .module-image .inner {
     background-color: #e1eef9;
 }
 /* second page */
@@ -473,6 +481,12 @@ div.hero .overlay .title-holder {
     height: 100%;
     position: relative;
     width: 100%;
+}
+
+.is-1 .title-holder .inner svg {
+    height: auto;
+    max-width: 1122px;
+    width: 80%;
 }
 
 .section-title {
