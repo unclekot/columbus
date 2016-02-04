@@ -19,13 +19,13 @@ body.building .hero {
 #top_bar{
     background-color: rgba(0, 0, 0, 0.4);
     display: block;
-    height: 60px;
     left: 0;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 100;
     padding:15px;
+    max-height: 60px;
 }
 
 #top_bar nav{float:right;}
@@ -540,8 +540,17 @@ figure figcaption.right {
 .building-prefooter {
     border-top: 1px solid #1d1d1b;
 }
-
-
+.animate-movein {
+    opacity: 0;
+    position: relative;
+    top: 100px;
+}
+.animate-fadein {
+    opacity: 0;
+}
+.menu-small{
+    display: none;
+}
 
 /* max-width 640px, mobile-only styles */
 @media only screen and (max-width: 40em) {
@@ -553,6 +562,23 @@ figure figcaption.right {
 }
 /* medium and small screens */
 @media only screen and (max-width: 64em) {
+    .menu-big{
+        display: none;
+    }
+    .show-small{
+        display: block;
+    }
+    .menu-toggle{
+        float: right;
+        cursor: pointer;
+    }
+    .close{
+        display: none;
+    }
+    #top_bar{
+        background-color: #1d1d1b;
+        padding: 0;
+    }
     #lockup-transition-4 .columns:nth-child(-n+2) {
         padding-right: 0 !important;
     }
@@ -572,38 +598,33 @@ figure figcaption.right {
         border-left-width: 0;
     }
 }
-.animate-movein {
-    opacity: 0;
-    position: relative;
-    top: 100px;
-}
-.animate-fadein {
-    opacity: 0;
-}
+
 /* not medium and not mobile screens */
 @media only screen and (min-width: 64.063em) {
-        .row{
-            max-width: 1322px;
-        }
-
-        .pre-footer{
-            padding-top: 4em;
-            padding-bottom: 4em;
-            }
-        .logo-prefooter {
-            padding-bottom: 3em;
-        }
-
-
-        .under-footer .copyright {
-            position: relative;
-            top: 80%;
-            transform: translateY(-50%);
-        }
-
-        .underfooter-logo .medium-2 {
-             width: 13.6667%;
-        }
+    .menu-big{
+        display: block;
+    }
+    .show-small{
+        display: none;
+    }
+    .row{
+         max-width: 1322px;
+    }
+    .pre-footer{
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+    .logo-prefooter {
+        padding-bottom: 3em;
+    }
+    .under-footer .copyright {
+        position: relative;
+        top: 80%;
+        transform: translateY(-50%);
+    }
+    .underfooter-logo .medium-2 {
+        width: 13.6667%;
+    }
 
 }
 
