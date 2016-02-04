@@ -376,18 +376,8 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
     min-height: 15em;
 }
 
-.first-margin-section {
-    margin-bottom: 5rem;
-}
-
-
 .module-section .item {
     text-align: center;
-}
-
-.module-description h1 {
-    font-size: 22px;
-    text-transform: uppercase;
 }
 
 /*
@@ -418,6 +408,7 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
 .module-description h1 {
     min-height: 3em;
     margin-bottom: 3em;
+    font-size:
 }
 
 .module-description a {
@@ -465,7 +456,6 @@ figure figcaption.right {
     text-align: right;
 }
 
-
 div.hero .overlay .title-holder {
     position: relative;
     text-align: center;
@@ -494,13 +484,6 @@ div.hero .overlay .title-holder {
     text-transform: uppercase;
 }
 
-.hero .overlay .title-holder svg {
-    height: auto;
-    max-width: 676px;
-    position: relative;
-    width: 80%;
-}
-
 .caption-main {
     font-weight: 700;
     line-height: 1.2;
@@ -513,14 +496,6 @@ div.hero .overlay .title-holder {
     letter-spacing: 0;
     line-height: 1.4;
     margin-bottom: 2.2em;
-}
-
-.align-center {
-    text-align: center;
-}
-
-.align-center .btn-std {
-    margin-left: 0 !important;
 }
 
 .image-section .image-section-overlay {
@@ -576,11 +551,6 @@ div.hero .overlay .title-holder {
 .note {
     display: block;
     margin-bottom: 2em;
-    text-align: center;
-}
-
-.pre-slider {
-    margin-bottom: 4em;
 }
 
 .toggle .icon {
@@ -618,74 +588,35 @@ div.hero .overlay .title-holder {
 .menu-small{
     display: none;
 }
-<<<<<<< HEAD
-
-section.building .nogrid .item-8 {
-    display: block;
-    float: left;
-    left: 0;
-    margin-right: 2.35765%;
-    position: relative;
-    top: 0;
-    width: 100%;
-}
-
-section.building .nogrid .nogrid-row {
-    margin-bottom: 6rem;
-    position: relative;
-    width: 100%;
-}
-
-.nogrid .item-8 .caption-main {
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-}
-
-
-section.building .nogrid .item-8 .image-overlay {
+.menu-dropdown {
     display: none;
     left: 0;
     position: absolute;
-    top: 0;
+    top: 45px;
+    width: 100%;
+    z-index: 2;
 }
-
-
+.menu-dropdown nav {
+    background-color: #fff;
+}
+.menu-dropdown nav .item {
+    border-bottom: 1px solid #cccccc;
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+.menu-dropdown nav .item a {
+    color: #1d1d1b;
+    display: block;
+    font-size: 0.7em;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    padding: 1.4em;
+    text-transform: uppercase;
+    width: 100%;
+}
 /* max-width 640px, mobile-only styles */
 @media only screen and (max-width: 40em) {
-    .menu-dropdown {
-        display: none;
-        left: 0;
-        position: absolute;
-        top: 45px;
-        width: 100%;
-        z-index: 2;
-    }
-
-    .menu-dropdown nav {
-        background-color: #fff;
-    }
-    
-    .menu-dropdown nav .item {
-        border-bottom: 1px solid #cccccc;
-        display: block;
-        text-align: left;
-        width: 100%;
-    }
-    .menu-dropdown nav .item a {
-        color: #1d1d1b;
-        display: block;
-        font-size: 0.7em;
-        font-weight: 500;
-        letter-spacing: 0.08em;
-        padding: 1.4em;
-        text-transform: uppercase;
-        width: 100%;
-    }
-
-
     .module-description {
             min-height: 2em;
     }
@@ -713,19 +644,6 @@ section.building .nogrid .item-8 .image-overlay {
     .underfooter-logo img {
         float: none;
     }
-
-    .subsection-2 {
-        padding-top: 2rem;
-    }
-
-    .item.image img {
-        width: 100%;
-    }
-
-    #lockup-transition-9 .animate-movein {
-        margin-bottom: 0px !important;
-    }
-
  }
 /* all non mobile screens */
 @media only screen and (min-width: 40em) {
