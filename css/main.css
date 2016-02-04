@@ -15,6 +15,22 @@ body.building .hero {
     position: relative;
     width: 100%;
 }
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.8em;
+}
+h3{
+    font-size: 1.5em;
+}
+h4{
+    font-size: 1.2em;
+}
+h5{
+    font-size: 1em;
+    font-weight: bold;
+}
 
 #top_bar{
     background-color: rgba(0, 0, 0, 0.4);
@@ -28,9 +44,18 @@ body.building .hero {
     max-height: 60px;
 }
 
-#top_bar nav{float:right;}
-#top_bar nav ul li{display: inline-block;text-transform: uppercase;margin-right: 2rem;}
-#top_bar nav ul li a{color:#fff;font-size: 0.8rem;font-weight: bold;}
+.caption .inner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.content-section .lockup-align-center .caption {
+    position: relative;
+}
+#top_bar .menu-big nav{float:right;}
+#top_bar nav ul li{display: inline-block;text-transform: uppercase;margin-right: 2em;}
+#top_bar nav ul li a{color:#fff;font-size: 0.8em;font-weight: bold;}
 
 .water {
     background-color: #e1eedc;
@@ -120,7 +145,7 @@ body.building .hero {
 .btn-section {
     border-left: 1px solid #1d1d1b;
     margin-right: 0 !important;
-    padding-bottom: 1rem;
+    padding-bottom: 1em;
 }
 
 .backtop-section {
@@ -136,7 +161,7 @@ body.building .hero {
 
 a.backtop {
     display: block;
-    font-size: 0.7rem;
+    font-size: 0.7em;
     font-weight: 500;
     letter-spacing: 0.08em;
     margin: 0 auto;
@@ -160,10 +185,10 @@ a.backtop span {
 
 .under-footer {
     background-color: #e1eef9;
-    font-size: 0.7rem;
+    font-size: 0.7em;
     letter-spacing: 0.08em;
     min-height: 60px;
-    padding: 3rem 0;
+    padding: 3em 0;
     text-transform: uppercase;
 }
 
@@ -188,6 +213,7 @@ a.backtop span {
     height: auto;
     max-width: 125px;
     width: 100%;
+    float: right;
 }
 
 .underfooter-logo {
@@ -197,10 +223,10 @@ a.backtop span {
 
 
 .content-section .caption-main {
-    font-size: 25px;
+    font-size: 1.5em;
     font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 1rem;
+    line-height: 1;
+    margin-bottom: 1em;
     text-transform: uppercase;
 }
 body.homepage section.homepage {
@@ -267,7 +293,7 @@ body.homepage .is-1 .title-holder .inner svg {
     font-weight: 700;
     height: auto;
     letter-spacing: 0.08em;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.4em;
     padding: 1.1em 1.9em;
     text-decoration: none;
     text-transform: uppercase;
@@ -276,7 +302,7 @@ body.homepage .is-1 .title-holder .inner svg {
     border: 2px solid #1d1d1b;
     color: #1d1d1b;
     transition: all 0.3s ease 0s;
-    margin-left: 4rem;
+    margin-left: 4em;
 }
 
 }
@@ -290,13 +316,18 @@ body.homepage .is-1 .title-holder .inner svg {
     color: #fff;
     transition: all 0.3s ease 0s;
 }
+.btn-std.white.black-fill:hover{
+    background-color: #fff;
+    color: #000;
+    text-decoration: underline;
+}
 .module-section {
     background-color: white;
     padding-top: 6em;
 }
 .module-section .item .module-image .item-title {
     display: block;
-    font-size: 0.7rem;
+    font-size: 0.7em;
     font-weight: 500;
     left: 0;
     letter-spacing: 0.08em;
@@ -304,6 +335,10 @@ body.homepage .is-1 .title-holder .inner svg {
     text-transform: uppercase;
     top: 2.2em;
     width: 100%;
+}
+.module-section .item .module-image .item-title .inner{
+    padding: 0.5em 0.8em;
+    display: inline-block;
 }
 
 .module-section .building {
@@ -314,9 +349,9 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
     background-color: #fbd8c6;
 }
 
-.collumbus-building-image {
-    margin-top: 6rem;
-    margin-bottom: 4rem;
+#lockup-transition-1 {
+    margin-top: 6em;
+    margin-bottom: 4em;
 }
 
 .collumbus-building-image2 {
@@ -325,20 +360,20 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
 
 .lifestyle {
     background-color: #fbd8c6;
-    /*margin-left: 1rem;*/
-    min-height: 15rem;
+    /*margin-left: 1em;*/
+    min-height: 15em;
 }
 
 .location {
     background-color: #e1eedc;
     /*left: 2.3%;
     position: relative;*/
-    min-height: 15rem;
+    min-height: 15em;
 }
 
 .building {
-   /* margin-right: 1rem;*/
-    min-height: 15rem;
+   /* margin-right: 1em;*/
+    min-height: 15em;
 }
 
 .first-margin-section {
@@ -362,7 +397,7 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
 }*/
 
 .module-image {
-    margin-bottom: 2.2rem;
+    margin-bottom: 2.2em;
     max-height: 300px;
     overflow: hidden;
     position: relative;
@@ -373,16 +408,16 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
     letter-spacing: 0;
     line-height: 1.4;
     margin: 0 1em 2em;
-    min-height: 15rem;
+    min-height: 15em;
 }
 
 .module-cta {
-    padding-bottom: 2.2rem;
+    padding-bottom: 2.2em;
 }
 
 .module-description h1 {
-    min-height: 3rem;
-    margin-bottom: 3rem;
+    min-height: 3em;
+    margin-bottom: 3em;
 }
 
 .module-description a {
@@ -390,7 +425,7 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
 }
 
 .module-description p {
-    margin-bottom: 2rem;
+    margin-bottom: 2em;
 }
 
 #lockup-transition-4 .btn-std {
@@ -413,11 +448,12 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
 .location .inner {
     background-color: #e1eedc;
 }
-
+.building .inner {
+    background-color: #e1eef9;
+}
 /* second page */
 
 figcaption {
-    font-size: 14px;
     padding-top: 0.6em;
 }
 
@@ -450,11 +486,10 @@ div.hero .overlay .title-holder {
 }
 
 .section-title {
-    font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.08em;
-    margin-bottom: 2.8rem;
-    padding-top: 2.8rem;
+    margin-bottom: 2.8em;
+    padding-top: 2.8em;
     text-align: center;
     text-transform: uppercase;
 }
@@ -467,10 +502,9 @@ div.hero .overlay .title-holder {
 }
 
 .caption-main {
-    font-size: 25px;
     font-weight: 700;
     line-height: 1.2;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
     text-transform: uppercase;
 }
 
@@ -478,7 +512,7 @@ div.hero .overlay .title-holder {
     color: #1d1d1b;
     letter-spacing: 0;
     line-height: 1.4;
-    margin-bottom: 2.2rem;
+    margin-bottom: 2.2em;
 }
 
 .align-center {
@@ -515,7 +549,7 @@ div.hero .overlay .title-holder {
 }
 .subsection-2 {
     background-color: #e1eef9;
-    padding-top: 6rem;
+    padding-top: 6em;
 }
 
 .subsection-2 .caption-main {
@@ -527,7 +561,7 @@ div.hero .overlay .title-holder {
     background-color: #e1eef9;
 }
 .butt-bac {
-    margin-top: 4rem;
+    margin-top: 4em;
 }
 
 .toggle .icon.active {
@@ -584,6 +618,7 @@ div.hero .overlay .title-holder {
 .menu-small{
     display: none;
 }
+<<<<<<< HEAD
 
 section.building .nogrid .item-8 {
     display: block;
@@ -618,21 +653,48 @@ section.building .nogrid .item-8 .image-overlay {
 }
 
 
-
 /* max-width 640px, mobile-only styles */
 @media only screen and (max-width: 40em) {
+    .menu-dropdown {
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    z-index: 2;
+    }
+    .menu-dropdown nav {
+        background-color: #fff;
+    }
+    .menu-dropdown nav .item {
+        border-bottom: 1px solid #cccccc;
+        display: block;
+        text-align: left;
+        width: 100%;
+    }
+    .menu-dropdown nav .item a {
+        color: #1d1d1b;
+        display: block;
+        font-size: 0.7em;
+        font-weight: 500;
+        letter-spacing: 0.08em;
+        padding: 1.4em;
+        text-transform: uppercase;
+        width: 100%;
+    }
 
-        .module-description {
-            min-height: 2rem;
+
+    .module-description {
+            min-height: 2em;
     }
 
     .module-description h1 {
-        margin-bottom: 2rem;
-        min-height: 2rem;
+        margin-bottom: 2em;
+        min-height: 2em;
     }
 
     .module-cta {
-        margin-bottom: 2rem;
+        margin-bottom: 2em;
     }
 
     .content-section .caption-main {
@@ -640,8 +702,14 @@ section.building .nogrid .item-8 .image-overlay {
     }
 
     .collumbus-building-image {
-        margin-bottom: 2rem;
-        margin-top: 2rem;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+    .under-footer{
+        text-align: center;
+    }
+    .underfooter-logo img {
+        float: none;
     }
 
     .subsection-2 {
@@ -663,6 +731,10 @@ section.building .nogrid .item-8 .image-overlay {
 }
 /* medium and small screens */
 @media only screen and (max-width: 64em) {
+    body{
+        font-size: 14px;
+    }
+
     .menu-big{
         display: none;
     }
@@ -692,12 +764,17 @@ section.building .nogrid .item-8 .image-overlay {
     }
     .logo-prefooter div{
         border-bottom: 1px solid #1d1d1b;
-        padding-bottom: 3rem;
-        padding-top: 3rem;
+        padding-bottom: 3em;
+        padding-top: 3em;
     }
     .btn-section{
         border-left-width: 0;
+        padding: 5em 0 3em;
     }
+    .under-footer .copyright {
+        padding-top: 7em;
+    }
+
 }
 
 /* not medium and not mobile screens */
