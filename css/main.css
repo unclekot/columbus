@@ -305,6 +305,11 @@ body.homepage .is-1 .title-holder .inner svg {
     top: 2.2em;
     width: 100%;
 }
+
+.module-section .building {
+    background-color: #E1EEF9;
+}
+
 body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
     background-color: #fbd8c6;
 }
@@ -332,7 +337,6 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
 }
 
 .building {
-    background-color: #e1eef9;
    /* margin-right: 1rem;*/
     min-height: 15rem;
 }
@@ -405,10 +409,6 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
     background-color: #e1eedc;
 }
 
-.building .inner {
-    background-color: #e1eef9;
-}
-
 /* second page */
 
 figcaption {
@@ -422,6 +422,14 @@ figure figcaption.left {
 
 figure figcaption.right {
     text-align: right;
+}
+
+div.hero .overlay .title-holder {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
 }
 
 
@@ -458,7 +466,6 @@ figure figcaption.right {
     letter-spacing: 0;
     line-height: 1.4;
     margin-bottom: 2.2rem;
-    margin-top: 60%;
 }
 
 .image-section .image-section-overlay {
@@ -545,7 +552,27 @@ figure figcaption.right {
 
 /* max-width 640px, mobile-only styles */
 @media only screen and (max-width: 40em) {
+        .module-description {
+            min-height: 2rem;
+    }
 
+    .module-description h1 {
+        margin-bottom: 2rem;
+        min-height: 2rem;
+    }
+
+    .module-cta {
+        margin-bottom: 2rem;
+    }
+
+    .content-section .caption-main {
+        text-align: center;
+    }
+
+    .collumbus-building-image {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
  }
 /* all non mobile screens */
 @media only screen and (min-width: 40em) {
@@ -554,7 +581,7 @@ figure figcaption.right {
 /* medium and small screens */
 @media only screen and (max-width: 64em) {
     #lockup-transition-4 .columns:nth-child(-n+2) {
-        padding-right: 0 !important;
+        padding-right: ;
     }
     .pre-footer {
         text-align: center;
@@ -580,6 +607,9 @@ figure figcaption.right {
 .animate-fadein {
     opacity: 0;
 }
+
+
+
 /* not medium and not mobile screens */
 @media only screen and (min-width: 64.063em) {
         .row{
