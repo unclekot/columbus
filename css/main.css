@@ -364,19 +364,19 @@ body.homepage .module-section .item.lifestyle .module-image .item-title .inner {
 .lifestyle {
     background-color: #fbd8c6;
     /*margin-left: 1em;*/
-    min-height: 15em;
+    min-height: 45rem;
 }
 
 .location {
     background-color: #e1eedc;
     /*left: 2.3%;
     position: relative;*/
-    min-height: 15em;
+    min-height: 45rem;
 }
 
 .building {
    /* margin-right: 1em;*/
-    min-height: 15em;
+    min-height: 45rem;
 }
 
 .module-section .item {
@@ -636,6 +636,24 @@ section.building .nogrid .nogrid-row {
     z-index: 1;
 }
 
+.collumbus-building-image {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.row2 .btn-std {
+    margin-left: 0 !important;
+}
+
+.module-section .columns {
+    min-height: 15em;
+}
+
+.module-section .item .module-description h1 {
+    font-size: 22px;
+    margin-bottom: 2.2rem;
+    text-transform: uppercase;
+}
 
 /* max-width 640px, mobile-only styles */
 @media only screen and (max-width: 40em) {
@@ -666,6 +684,24 @@ section.building .nogrid .nogrid-row {
     .underfooter-logo img {
         float: none;
     }
+
+    .row2 .btn-std {
+        margin-left: 2.5rem !important;
+        margin-bottom: 2rem;
+    }
+
+    .butt-bac .btn-std {
+        margin-left: 0;
+    }
+
+    .btn-section .btn-std {
+        margin-left: 0;
+    }
+
+    .riverside { 
+        margin-top: 2em;
+    }    
+
  }
 /* all non mobile screens */
 @media only screen and (min-width: 40em) {
@@ -713,9 +749,36 @@ section.building .nogrid .nogrid-row {
         border-left-width: 0;
         padding: 5em 0 3em;
     }
+
+    .btn-section .btn-std {
+        margin-left: 0;
+    }
+
     .under-footer .copyright {
         padding-top: 7em;
     }
+
+    .lifestyle {
+        background-color: #fbd8c6;
+        /*margin-left: 1em;*/
+        min-height: 15rem;
+    }
+
+    .location {
+        background-color: #e1eedc;
+        /*left: 2.3%;
+        position: relative;*/
+        min-height: 15rem;
+    }
+
+    .building {
+       /* margin-right: 1em;*/
+        min-height: 15rem;
+    }
+
+    .module-description h1 {
+        margin-bottom: 1em;
+    } 
 
 }
 
