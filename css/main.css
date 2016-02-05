@@ -154,6 +154,9 @@ body.homepage .caption .inner {
     background-color: #e1eef9;
     border-bottom: 1px solid #1d1d1b;
 }
+body.building .pre-footer{
+    border-top: 1px solid #1d1d1b;
+}
 
 .logo-prefooter {
     border-right: 1px solid #1d1d1b;

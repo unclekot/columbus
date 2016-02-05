@@ -6,6 +6,12 @@ $("#backtop-footer").click(function() {
     }, 1500);
 });
 
+$("#backtop-footer").click(function() {
+    $('body.bulding').animate({
+        scrollTop: $(".hero").offset().top
+    }, 1500);
+});
+
 
 $(".godown").click(function() {
     $('html, body').animate({
