@@ -32,6 +32,15 @@ h5{
     font-weight: bold;
 }
 
+body.building p{
+    font-size: 0.9em;
+}
+body.building figcaption{
+    font-size: 0.8em;
+}
+body.building #footer{
+    background-color: #e1eef9;
+}
 #top_bar{
     background-color: rgba(0, 0, 0, 0.4);
     display: block;
@@ -812,6 +821,9 @@ body.building main section.building .nogrid .item-5 {
         border-bottom: 1px solid #1d1d1b;
         padding-bottom: 3em;
         padding-top: 3em;
+    }
+    body.building .logo-prefooter div{
+        border-top: 1px solid #1d1d1b;
     }
     .btn-section{
         border-left-width: 0;
