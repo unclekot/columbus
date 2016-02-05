@@ -583,6 +583,10 @@ section.building .nogrid .nogrid-row {
     width: 100%;
 }
 
+.pre-slider {
+    margin-bottom: 3rem;
+}
+
 
 .nogrid .item-8 .image-overlay {
     display: none;
@@ -753,6 +757,19 @@ body.building main section.building .nogrid .item-5 {
         margin-top: 2em;
     }
 
+    .animate-movein {
+        opacity: 1 !important;
+    }
+
+    .animate-fadein {
+        opacity: 1 !important;
+    }
+
+    .no-absolute {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
  }
 /* all non mobile screens */
 @media only screen and (min-width: 40em) {
@@ -801,6 +818,12 @@ body.building main section.building .nogrid .item-5 {
         padding: 5em 0 3em;
     }
 
+    .building .logo-prefooter {
+        border-bottom: 1px solid #1d1d1b;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
     .btn-section .btn-std {
         margin-left: 0;
     }
@@ -829,6 +852,15 @@ body.building main section.building .nogrid .item-5 {
 
     .module-description h1 {
         margin-bottom: 1em;
+    }
+
+    .no-absolute {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    body.building main section.building .nogrid .nogrid-item {
+        position: static;
     }
 
 }
