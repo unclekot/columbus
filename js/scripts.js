@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 $("#backtop-footer").click(function() {
     $('html, body').animate({
-        scrollTop: $(".water").offset().top
+        scrollTop: $(".overlay").offset().top
     }, 1500);
 });
 
