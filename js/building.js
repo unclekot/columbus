@@ -43,9 +43,6 @@ $(document).ready(function(){
 
 
 
-
-
-
     drawHeroText2.stop();
 
 

@@ -44,7 +44,7 @@ h5{
     max-height: 60px;
 }
 
-.caption .inner {
+body.homepage .caption .inner {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -236,6 +236,9 @@ a.backtop span {
     line-height: 1;
     margin-bottom: 1em;
     text-transform: uppercase;
+}
+body.building .content-section .caption-main {
+    text-align: center;
 }
 body.homepage section.homepage {
     background-color: #e1eedc;
@@ -560,8 +563,11 @@ div.hero .overlay .title-holder {
 .note {
     display: block;
     margin-bottom: 2em;
+    text-align: center;
 }
-
+figure{
+    margin:0;
+}
 .toggle .icon {
     border: 1px solid #1d1d1b;
     border-radius: 6px;
@@ -635,7 +641,52 @@ section.building .nogrid .nogrid-row {
 .content-section .item.caption {
     z-index: 1;
 }
+section.building .item-8 .image-overlay {
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+section.building .nogrid {
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+main section .section-title {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin-bottom: 2.8rem;
+    padding-top: 2.8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+main section.building .nogrid .nogrid-row {
+    margin-bottom: 6rem;
+    position: relative;
+    width: 100%;
+}
+body.building main section.building .nogrid .nogrid-item {
+    position: absolute;
+}
 
+body.building main section.building .nogrid .item-1 {
+    left: 0;
+}
+body.building main section.building .nogrid .item-2 {
+    right: 0;
+}
+body.building main section.building .nogrid .item-3 {
+    right: 0;
+}
+body.building main section.building .nogrid .item-4 {
+    right: 0;
+    bottom: 0;
+}
+body.building main section.building .nogrid .item-5 {
+    position: relative;
+    top: 0;
+}
 
 /* max-width 640px, mobile-only styles */
 @media only screen and (max-width: 40em) {
